@@ -42,8 +42,7 @@
 				},
 				{ 
 					room : 1,
-					adult : 2,
-					child : 1
+					adult : 3
 				}
 			]
 		},
@@ -55,7 +54,7 @@
 			checkInAllowFromNow : 0,
 
 			// Duration between check-in and check-out date
-			maxDuration : 30,
+			maxStayDuration : 30,
 
 			//default checkout date if check-in date is selected
 			defaultStayDuration : 1,
@@ -157,3 +156,7 @@
 
 ## Performance standard
 - Any component if opened via web page tester, it should load under 500ms (milli seconds).
+
+## Documents
+- Visual designs for search components - https://projects.invisionapp.com/share/6E9PJ7R4Q#/screens/212067485
+- API access : Url - http://demo.travelnxt.com/dev
