@@ -133,6 +133,7 @@
 - Auto-suggest - Destination text box to show loader while processing and cross icon after selection to clear
 - Auto-suggest - Select value from suggested value but display short version of selection in text box
 - Auto-suggest - Spec should categorised with CITY / AIRPORT and POINTS OF INTEREST. 
+- Auto-suggest - Pass on the location object of user selection.
 
 
 ## Test Cases
@@ -149,6 +150,8 @@
 
 ## Other Information
 - Set Hithub repository at your end for this project, we will merge them later
-- For development use Google or Vaadin's elements/components while development.
+- You can use Google/Vaadin's elements (like calender element and textboxes etc.)
 - Some elements like auto-suggest can be used of Tavisca's but all the features and properties mentioned above in scope should be added by Waain
-- Performance test standard  - If you open the component in web page tester, it should load under 500ms (milli seconds).
+
+## Performance standard
+- Any component if opened via web page tester, it should load under 500ms (milli seconds).
