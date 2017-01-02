@@ -132,7 +132,7 @@
 - Auto-suggest - Text box (Destination) will show loader while processing and after selection of item, it shoul started showing cross icon to clear the data.
 - Auto-suggest - Should allow user to select an items says "Las Vegas, NV, United States - McCarran International Airport (LAS)" but after selection in text box it will appear as "LAS - Las Vegas" (Short version)
 - Auto-suggest - Spec should categorised with CITY / AIRPORT and POINTS OF INTEREST. 
-- Auto-suggest - On selection of serach button pass on the location object of user selection.
+- Auto-suggest - On selection of search button pass on the location object of user selection.
 - Component Events - doSearch (Triggers	event with search data) and initializeSearch (Listens to this event to set defautl state as per data passed)
 
 
@@ -149,7 +149,7 @@
 - Button name should change on click of Search to "Searching" or whatever the name set in property
 
 ## Steps to Start
-- Set Hithub repository at your end for this project, we will merge them later
+- Set Github repository at your end for this project, we will merge them later
 - You can use Google/Vaadin's elements (like calender element and textboxes etc.)
 - You can use some Tavisca's elements like auto-suggest if required from https://github.com/atomelements/t-autosuggest but all the features and properties mentioned in scope should be added. (Fork the existing element and create V2)
 - APIs Integration - Use Tavisca's APIs for integration purpose.
