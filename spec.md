@@ -128,12 +128,12 @@
 
 ## Important Information
 
-- Auto-suggest - When user starts typing auto-suggest should start giving results after min. 3 char
-- Auto-suggest - Should fire when user stop typing - Gap should be min 50ms (Milli seconds)
-- Auto-suggest - Destination text box to show loader while processing and cross icon after selection to clear
-- Auto-suggest - Select value from suggested value but display short version of selection in text box
+- Auto-suggest - When user start typing auto-suggest should suggest results only after entering minimum 3 char.
+- Auto-suggest - Once user stop entering the data, auto-suggest should fire after a gap of 50 ms (Milli seconds).
+- Auto-suggest - Text box (Destination) will show loader while processing and after selection of item, it shoul started showing cross icon to clear the data.
+- Auto-suggest - Should allow user to select an items says "Las Vegas, NV, United States - McCarran International Airport (LAS)" but after selection in text box it will appear as "LAS - Las Vegas" (Short version)
 - Auto-suggest - Spec should categorised with CITY / AIRPORT and POINTS OF INTEREST. 
-- Auto-suggest - Pass on the location object of user selection.
+- Auto-suggest - On selection of serach button pass on the location object of user selection.
 - Component Events - doSearch (Triggers	event with search data) and initializeSearch (Listens to this event to set defautl state as per data passed)
 
 
