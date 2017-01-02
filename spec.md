@@ -134,6 +134,10 @@
 - Auto-suggest - Spec should categorised with CITY / AIRPORT and POINTS OF INTEREST. 
 - Auto-suggest - On selection of search button pass on the location object of user selection.
 - Component Events - doSearch (Triggers	event with search data) and initializeSearch (Listens to this event to set defautl state as per data passed)
+- Misc items to be handled from CSS like:
+1. Background color of outer container.
+2. Mixin (to control outer width)
+3. Button color etc.
 
 
 ## Test Cases
