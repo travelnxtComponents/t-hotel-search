@@ -126,7 +126,7 @@
 	}
 ```
 
-## Information
+## Important Information
 
 - Auto-suggest - When user starts typing auto-suggest should start giving results after min. 3 char
 - Auto-suggest - Should fire when user stop typing - Gap should be min 50ms (Milli seconds)
@@ -134,6 +134,7 @@
 - Auto-suggest - Select value from suggested value but display short version of selection in text box
 - Auto-suggest - Spec should categorised with CITY / AIRPORT and POINTS OF INTEREST. 
 - Auto-suggest - Pass on the location object of user selection.
+- Component Events - doSearch (Triggers	event with search data) and initializeSearch (Listens to this event to set defautl state as per data passed)
 
 
 ## Test Cases
@@ -148,10 +149,11 @@
 - Auto-suggest - Destination text box to show loader while processing and cross icon after selection to clear
 - Button name should change on click of Search to "Searching" or whatever the name set in property
 
-## Other Information
+## Steps to Start
 - Set Hithub repository at your end for this project, we will merge them later
 - You can use Google/Vaadin's elements (like calender element and textboxes etc.)
-- Some elements like auto-suggest can be used of Tavisca's but all the features and properties mentioned above in scope should be added by Waain
+- You can use some Tavisca's elements like auto-suggest if required from https://github.com/atomelements/t-autosuggest but all the features and properties mentioned in scope should be added. (Fork the existing element and create V2)
+- APIs Integration - Use Tavisca's APIs for integration purpose.
 
 ## Performance standard
 - Any component if opened via web page tester, it should load under 500ms (milli seconds).
