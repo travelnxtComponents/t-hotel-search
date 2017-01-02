@@ -129,8 +129,10 @@
 ## Information
 
 - Auto-suggest - When user starts typing auto-suggest should start giving results after min. 3 char
-- Auto-suggest - Should fire when user stop typing - Gap should be min 50ms
+- Auto-suggest - Should fire when user stop typing - Gap should be min 50ms (Milli seconds)
 - Auto-suggest - Destination text box to show loader while processing and cross icon after selection to clear
+- Auto-suggest - Select value from suggested value but display short version of selection in text box
+- Auto-suggest - Spec should categorised with CITY / AIRPORT and POINTS OF INTEREST. 
 
 
 ## Test Cases
@@ -149,4 +151,4 @@
 - Set Hithub repository at your end for this project, we will merge them later
 - For development use Google or Vaadin's elements/components while development.
 - Some elements like auto-suggest can be used of Tavisca's but all the features and properties mentioned above in scope should be added by Waain
--Performance test standard  - If you open the component in web page tester, it should load under 500ms.
+- Performance test standard  - If you open the component in web page tester, it should load under 500ms (milli seconds).
