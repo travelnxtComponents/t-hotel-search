@@ -46,7 +46,7 @@
 				}
 			]
 		},
-		multiRoomEnable : true,
+		// If maxRoomCount is greater than 1, this will be treated as MultiRoom booking scenario
 		maxRoomCount : 4,
 		date : {
 
@@ -159,7 +159,7 @@
 - APIs Integration - Use Tavisca's APIs for integration purpose.
 
 ## Performance standard
-- Any component if opened via web page tester, it should load under 500ms (milli seconds).
+- Any component if opened via [web page tester](https://www.webpagetest.org/), it should load under 500ms (milli seconds).
 
 ## Documents
 - Visual designs for search components - https://projects.invisionapp.com/share/6E9PJ7R4Q#/screens/212067485
