@@ -31,6 +31,8 @@
 			defaultAdultCount : 2,
 			defaultChildCount :0,
 
+                    // Text in traveler dropdown will generate from below data only like "1 Adult in 1 Room"
+
 			defaultSelectOption : [
 				{ 
 					room : 1,
@@ -51,6 +53,7 @@
 			]
 		},
 		// If maxRoomCount is greater than 1, this will be treated as MultiRoom booking scenario
+		
 		maxRoomCount : 4,
 		date : {
 
@@ -84,6 +87,13 @@
 			checkIn : "MM/DD/YYYY",
 			checkOut : "MM/DD/YYYY",
 			hotelLocation : "City, Airport, Address or Point of Interest"
+		},
+		
+		errorMessage : {
+		         destinationError : "Please enter your destination",
+			 checkInError : "Please enter your destination",
+			 checkOutError : "Please enter your destination"
+		
 		}
 	}
 ```
