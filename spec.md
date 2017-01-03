@@ -91,8 +91,8 @@
 		
 		errorMessage : {
 		         destinationError : "Please enter your destination",
-			 checkInError : "Please enter your destination",
-			 checkOutError : "Please enter your destination"
+			 checkInError : "Please enter checkin date",
+			 checkOutError : "Please enter checkout date"
 		
 		}
 	}
