@@ -43,6 +43,10 @@
 				{ 
 					room : 1,
 					adult : 3
+				},
+				{ 
+					room : 2,
+					adult : 5
 				}
 			]
 		},
