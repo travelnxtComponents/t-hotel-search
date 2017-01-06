@@ -4,13 +4,13 @@
 
 ``` html
 
-<t-search 
+<t-hotel-search 
 		options={{searchOption}} 
 		resources={{resources}} 
 		init-model={{searchModel}} 
 		on-do-search="{{doSearch}}"
 		lang="en">
-</t-search>
+</t-hotel-search>
 
 ```
 
@@ -181,3 +181,4 @@
 - Tavisca Elements - https://github.com/atomelements and https://github.com/travelnxtelements
 - Vaadin elements - https://vaadin.com/docs/-/part/elements/elements-getting-started.html
 - Google - https://elements.polymer-project.org/browse?package=google-web-components
+- Tavisca Web component style Guide - https://drive.google.com/open?id=0B7BT_2nBFNYVR2tscE9pRnVJYmc
