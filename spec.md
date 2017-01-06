@@ -159,7 +159,7 @@
 - Basic validation - Don't enter or select anything and click Search
 - Validations - If Pax count is having child than age selection should be mandatory
 - Date - Checkin/Checkout - Calender should be available
-- Date - User should allow to type in Checkin/checkout dates
+- Date - User shouldn't allow to type in Checkin/checkout dates
 - Destination - If user don't select from autosuggest and click search with proper dates
 - Auto-suggest - When user starts typing auto-suggest should start giving results after min. 3 char
 - Auto-suggest - Should fire when user stop typing - Gap should be min 50ms
