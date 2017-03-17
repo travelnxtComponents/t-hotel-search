@@ -1,2 +1,2 @@
 # t-hotel-search
-Travel Hotel Search COmponent
+Travel Hotel Search Component
