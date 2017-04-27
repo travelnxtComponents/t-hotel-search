@@ -165,6 +165,8 @@
 - Auto-suggest - Should fire when user stop typing - Gap should be min 50ms
 - Auto-suggest - Destination text box to show loader while processing and cross icon after selection to clear
 - Button name should change on click of Search to "Searching" or whatever the name set in property
+- Verify all exposed public properties are working independently and with complex combination.
+- Verify all exposed methods and events are working.
 
 ## Steps to Start
 - Set Github repository at your end for this project, we will merge them later
