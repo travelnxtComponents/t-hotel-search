@@ -81,7 +81,11 @@
 			children : 'Children',
 			child : 'Child',
 			age : 'Age',
-			room : "Room"
+			room : "Room",
+			travelers : "Travellers",
+			checkin : "Check in",
+			checkout : "Checkout",
+			hotellocation : "Search by Airport, Hotel name, destination"
 		},
 		watermark : {
 			checkIn : "MM/DD/YYYY",
